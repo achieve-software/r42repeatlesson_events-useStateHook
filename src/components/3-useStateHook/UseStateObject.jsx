@@ -62,7 +62,7 @@ const UseStateObject = () => {
       <h3 className="display-4">
         {person.name} {person.surname}
       </h3>
-      <h3 className="display-5">Salary:{person.salary}</h3>
+      <h3 className="display-6">Salary:{person.salary}</h3>
       <button onClick={handleSalaryInc} className="btn btn-success">
         Salary Inc
       </button>
