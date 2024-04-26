@@ -22,8 +22,8 @@ import { useState } from "react"
 
 const UseStateObject = () => {
   const [person, setPerson] = useState({
-    name: "ahmet",
-    surname: "can",
+    name: "a",
+    surname: "c",
     salary: 10000,
   })
 
