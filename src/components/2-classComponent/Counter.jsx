@@ -54,7 +54,7 @@ class Counter extends React.Component {
           onClick={() => this.setState({ count: 0 })}
           className="btn btn-danger"
         >
-          CLeaR
+          CLR
         </button>
         <button onClick={this.decrement} className="btn btn-warning">
           DEC
