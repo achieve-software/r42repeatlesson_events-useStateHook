@@ -16,7 +16,7 @@ class Counter extends React.Component {
 
     //!  State'e baslangi degeri verdik.
     this.state = {
-      count: 0,
+      count: 5,
     }
 
     //  this.increment = function (){
