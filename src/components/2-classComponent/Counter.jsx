@@ -48,13 +48,13 @@ class Counter extends React.Component {
         <h2 className="text-danger">Class Components</h2>
         <h1 className="display-4">Count:{this.state.count}</h1>
         <button onClick={this.increment} className="btn btn-success">
-          INCREASE
+          INC
         </button>
         <button
           onClick={() => this.setState({ count: 0 })}
           className="btn btn-danger"
         >
-          CLEAR
+          CLR
         </button>
         <button onClick={this.decrement} className="btn btn-warning">
           DEC
