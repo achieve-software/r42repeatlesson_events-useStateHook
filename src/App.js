@@ -10,6 +10,8 @@ function App() {
       <Counter /> */}
       <UseStateCounter />
       <UseStateObject />
+      <UseStateCounter />
+      <UseStateObject />
     </div>
   )
 }
