@@ -45,7 +45,7 @@ class Counter extends React.Component {
   render() {
     return (
       <div className="container text-center mt-4">
-        <h2 className="text-danger">Class Components</h2>
+        <h2 className="text-danger"> Components</h2>
         <h1 className="display-4">Count:{this.state.count}</h1>
         <button onClick={this.increment} className="btn btn-success">
           INC
